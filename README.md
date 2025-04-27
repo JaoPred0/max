@@ -1,74 +1,74 @@
-# MAX Platform Documentation
+# Documentação da Plataforma MAX
 
-## Welcome to MAX: The Entertainment Revolution
+## Bem-vindo à MAX: A Revolução do Entretenimento
 
 ---
 
-## Project Overview
-The MAX platform is a modern IPTV service offering seamless access to over 400+ channels, movies, series, sports, and more. This documentation provides detailed instructions for setting up the platform, using its features, and leveraging its functionalities.
+## Visão Geral do Projeto
+A plataforma MAX é um serviço moderno de IPTV que oferece acesso ininterrupto a mais de 400 canais, filmes, séries, esportes e muito mais. Esta documentação fornece instruções detalhadas para configurar a plataforma, usar seus recursos e aproveitar suas funcionalidades.
 
-## Features and Components
+## Funcionalidades e Componentes
 
-### 1. Main Features:
-- Infinite scrolling text showcasing offers.
-- Responsive design for all screen sizes (mobile, tablet, desktop).
-- Smooth animations powered by AOS and Animate.css.
+### 1. Principais Funcionalidades:
+- Texto rolante infinito exibindo ofertas.
+- Design responsivo para todos os tamanhos de tela (celular, tablet, desktop).
+- Animações suaves impulsionadas por AOS e Animate.css.
 
-### 2. Core Components:
-- **Navbar**: Provides intuitive navigation across the platform.
-- **PromoPage**: Landing page for promotions.
-- **Plataforma**: Displays device compatibility.
-- **AndroidPromo**: Highlights the app availability for Android.
-- **ScrollingText**: Features continuous text scroll animation.
-- **PromoOffer**: Special promotional components (e.g., 7-day access).
-- **Footer**: Contact details, policies, and app download links.
+### 2. Componentes Principais:
+- **Navbar**: Fornece navegação intuitiva pela plataforma.
+- **PromoPage**: Página inicial de promoções.
+- **Plataforma**: Exibe a compatibilidade com dispositivos.
+- **AndroidPromo**: Destaca a disponibilidade do app para Android.
+- **ScrollingText**: Animação de texto rolante contínuo.
+- **PromoOffer**: Componentes promocionais especiais (ex: acesso de 7 dias).
+- **Footer**: Detalhes de contato, políticas e links para download de aplicativos.
 
-## Setup Guide
+## Guia de Configuração
 
-### Step 1: Prerequisites
-- Ensure you have Node.js installed.
-- Recommended: Install a code editor such as Visual Studio Code.
+### Etapa 1: Pré-requisitos
+- Certifique-se de ter o Node.js instalado.
+- Recomendado: Instalar um editor de código como o Visual Studio Code.
 
-### Step 2: Installation
-- Clone the repository:
+### Etapa 2: Instalação
+- Clone o repositório:
 ```bash
 git clone https://github.com/your-repo/max-platform.git
 ```
-- Navigate to the max directory:
+- Acesse o diretório max:
 ```bash
 cd max
 ```
-- Install dependencies:
+- Instale as dependências:
 ```bash
 npm install
 ```
-- Start the development server:
+- Inicie o servidor de desenvolvimento:
 ```bash
 npm run dev
 ```
 
-### Step 3: Build for Production
-- To optimize the app for production:
+### Etapa 3: Build para Produção
+- Para otimizar o aplicativo para produção:
 ```bash
 npm run build
 ```
 
-## File Structure
+## Estrutura de Arquivos
 
-### public Directory:
-Contains images used across the project, such as:
-- `banner.png`: Promotional banners.
-- `logo.png`: Platform branding.
-- Device icons for Android, LG, Samsung, FireTV.
+### Diretório public:
+Contém imagens utilizadas no projeto, como:
+- `banner.png`: Banners promocionais.
+- `logo.png`: Marca da plataforma.
+- Ícones de dispositivos para Android, LG, Samsung, FireTV.
 
-### src Directory:
-- **Assets**: Resources like `react.svg` and `vite.svg`.
-- **Components**: Reusable components (PromoOffer, Footer, etc.).
+### Diretório src:
+- **Assets**: Recursos como `react.svg` e `vite.svg`.
+- **Components**: Componentes reutilizáveis (PromoOffer, Footer, etc.).
 - **Styles**:
-  - `App.css`: Global styles.
-  - `ScrollingText.css`: Custom styles for scrolling text.
+  - `App.css`: Estilos globais.
+  - `ScrollingText.css`: Estilos personalizados para o texto rolante.
 
 ---
 
-Happy streaming with MAX!
+Boas transmissões com a MAX!
 
